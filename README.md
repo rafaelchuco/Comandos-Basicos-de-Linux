@@ -1,4 +1,11 @@
-# **Comandos Básicos de Linux**  
+# **🚀 Comandos Básicos de Linux**  
+
+<p align="center">
+  <img src="https://www.artistapirata.com/wp-content/uploads/2018/12/programas-full-linux-descargar-programas-linux-300x181.jpg" 
+       style="width: 500px; height: auto;">
+</p>
+
+---
 
 ## **📂 1. Gestión de Directorios y Archivos**  
 
@@ -19,16 +26,6 @@
 | `ls -a` | Incluye archivos ocultos en la lista. | `$ ls -a` → `.bashrc .profile` |
 | `ls -lh` | Muestra tamaños en formato legible (KB, MB). | `$ ls -lh` → `10K documento.txt` |
 | `ls -R` | Lista archivos y subdirectorios recursivamente. | `$ ls -R` |
-
-### 📂 Creación y eliminación de archivos/directorios  
-| Comando | Descripción | Ejemplo |
-|---------|------------|---------|
-| `mkdir nueva_carpeta` | Crea una carpeta nueva. | `$ mkdir proyectos` |
-| `mkdir -p carpeta/subcarpeta` | Crea una carpeta y subcarpetas si no existen. | `$ mkdir -p proyectos/python` |
-| `touch archivo.txt` | Crea un archivo vacío o actualiza su fecha de modificación. | `$ touch notas.txt` |
-| `rm archivo.txt` | Elimina un archivo. | `$ rm notas.txt` |
-| `rm -r carpeta` | Borra una carpeta y su contenido. | `$ rm -r proyectos` |
-| `rmdir carpeta` | Borra una carpeta solo si está vacía. | `$ rmdir carpeta_vacia` |
 
 ---
 
@@ -125,6 +122,3 @@
 | `echo "Hola, mundo"` | Muestra un mensaje en la terminal. | `$ echo "Hola, mundo"` |
 | `nano archivo.txt` | Edita un archivo con Nano. | `$ nano notas.txt` |
 | `vim archivo.txt` | Edita un archivo con Vim. | `$ vim notas.txt` |
-
----
-
